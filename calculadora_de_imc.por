@@ -8,14 +8,14 @@ programa {
     leia(a)
     imc = m / (a * a)
 
-    escreva("Seu IMC é: ", imc, "\n")
+    escreva("Seu IMC Ã©: ", imc, "\n")
 
     se(imc <18.5){
-      escreva("Você está abaixo do peso!")
+      escreva("VocÃª estÃ¡ abaixo do peso!")
     } se(imc >= 18.5 e imc < 24.9) {
-      escreva("Seu peso está normal")
+      escreva("Seu peso estÃ¡ normal")
     } se(imc >= 24.9 e imc < 29.9){
-      escreva("Você está acima do peso")
+      escreva("VocÃª estÃ¡ acima do peso")
     } se(imc > 29.9){
       escreva("Sobrepeso.")
     }
